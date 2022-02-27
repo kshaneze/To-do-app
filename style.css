@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  background: linear-gradient(to right, #ffb347, #ffcc33);
+}
+
+.app-container {
+  display: flex;
+  margin: auto;
+  width: 300px;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+
+.inpoutp {
+  display: flex;
+
+  width: fit-content;
+}
+
+.tasks {
+  display: inline-flex;
+  justify-content: flex-start;
+}
+
+.task {
+  padding: 15px;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+#position {
+  position: relative;
+  right: 80px;
+  margin-top: 2rem;
+}
+
+li {
+  padding: 7px;
+  width: 300px;
+  height: 30px;
+  background-color: gray;
+  margin: 8px;
+  list-style-position: inside;
+  border-radius: 5px;
+  font-size: 20px;
+  color: black;
+}
+
+.input {
+  height: 28px;
+
+  font-size: 18px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  box-shadow: -3px 6px 4px #222;
+  padding: 5px;
+}
+
+.button {
+  height: 37px;
+  width: 37px;
+  font-size: 25px;
+  border-radius: 3px;
+  border: none;
+  outline: none;
+  background-color: rgba(245, 232, 208, 0.76);
+  margin-left: 8px;
+  box-shadow: -3px 6px 4px #222;
+}
+
+.button:hover {
+  background-color: rgb(228, 181, 107);
+}
+.button:active {
+  transform: translateY(4px);
+  transition: all 1;
+}
+
+.tasks ol button {
+  position: absolute;
+  left: 380px;
+  margin-top: 5px;
+  width: 30px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 5px;
+}
+
+.edit {
+  margin-left: 10px;
+}
+
+.tasks ol button:active {
+  transform: translateY(4px);
+}
+
+.btn {
+  margin-left: 40px;
+}
